@@ -15,6 +15,6 @@
     "typescript": "^3.5.2"
   },
   "scripts": {
-    "watch:prettier": "npx onchange '*.tsx' -- npx prettier --write {{changed}}"
+    "prettier:watch": "npx onchange '*.tsx' -- npx prettier --write {{changed}}"
   }
 }
